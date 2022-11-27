@@ -1,0 +1,178 @@
+body{
+    height: 100vh;
+}
+
+.hi{
+    margin: 40PX 0PX 0 0PX;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.hii{
+    margin: 0PX 0PX 0 0PX;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+.about, .contact{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    transition: all .5s;
+    
+}
+.about:hover, .contact:hover{
+    transform: scale(1.1,1.1);
+}
+
+.circ{
+    font-size: 10px;
+}
+.gitI{
+    font-size: 25px;
+}
+.git:hover{
+    color: rgb(135, 40, 167);
+    
+}
+.git:before{
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50% ;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: white;
+    
+}
+.git:hover::before{
+    transition: all .3s ease-in-out;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    color: black;
+}
+.git{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: rgb(169,50,208);
+    background: radial-gradient(circle, rgba(135,40,167) 0%, rgba(161,0,141,1) 100%);
+    color: white;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 600;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    position: relative;
+    z-index: 1;
+    margin: 30px 15PX 150px 15px ;
+    box-shadow: rgba(50, 50, 93, 0.5) 0px 30px 60px -12px, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px;
+}
+
+
+.container-fluid{
+    padding: 100px;
+}
+.hi{
+    width: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    animation: typing 2s steps(60, end) forwards, blink-cart 1s step-end forwards;
+}
+.cn{
+    margin-top: 100px;
+}
+.hii{
+    width: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    animation: typing 2s steps(60, end) forwards, blink-cart 1s step-end forwards;
+}
+.t1{
+    margin: 0 0 0 15px;
+    font-family: 'Raleway', sans-serif; 
+    width: fit-content;
+}
+.t2{
+    margin: 0 0 0 15px;
+    font-family: 'Raleway', sans-serif; 
+    width: fit-content;
+}
+
+.t3{
+    margin: 0 0 0 15px;
+    font-family: 'Raleway', sans-serif; 
+    width: fit-content;
+}
+
+
+@keyframes typing{
+    0%{
+        width: 0
+    }
+    20%{
+        width: 20%;
+    }
+    40%{
+        width: 50%;
+    }
+    60%{
+        width: 100%;
+    }
+    80%{
+        width: 100%;
+    }
+    
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret{
+    from,
+    to{
+        border-color: transparent;
+    }
+    50%{
+        border-color: #2A2734;
+    }
+    
+}
+.links{
+    color: black;
+}
+
+.links:hover +i{
+    transform: translateX(50%);
+    color: white;
+}
+span{
+    color: black;
+}
+#Portfolio{
+    background: rgb(146,208,50);
+    background: radial-gradient(circle, rgba(146,208,50,1) 0%, rgba(30,161,0,1) 100%);
+    
+}
+.port-img{
+    width: 545px;
+    border-radius: 5px;
+    height: 300px;
+}
+.card{
+    border: none;
+    margin:  0;
+    background-color: transparent;
+}
+
+.bg1{
+    margin: -120px 0 0 0;
+    
+}

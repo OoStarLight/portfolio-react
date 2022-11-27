@@ -1,0 +1,178 @@
+.insta{
+    font-size: 60px;
+    margin-right: 60px;
+    color: white;
+    margin-top: 30px;
+    transition: all .5s;
+    display: inline;
+    margin-bottom: 20px;
+    width: 50px;
+}
+
+.instaT{
+    margin: 100px 0 0 0;
+}
+
+.insta .fa-instagram:hover{
+    transform: rotate(360deg);
+}
+.hov{
+    margin-left: 30PX;
+    margin-top: -5px;
+}
+.hov a + span {
+    padding-bottom: 10px;
+}
+
+.insta:hover{
+    transform: rotate(360deg);
+}
+
+.hov:nth-child(1) a:hover + span::after{
+    content: "Instagram";
+    animation: outelm .3s ease-in-out;
+    font-size: 2.5em;
+    padding-left: 30px;
+    color: white;
+}
+
+.hov:nth-child(2) a:hover + span::after{
+    content: "LinkedIn";
+    animation: outelm .3s ease-in-out;
+    font-size: 2.5em;
+    padding-left: 30px;
+    color: white;
+}
+.hov:nth-child(3) a:hover + span::after{
+    content: "GitHub";
+    animation: outelm .3s ease-in-out;
+    font-size: 2.5em;
+    padding-left: 30px;
+    color: white;
+}
+
+@keyframes outelm {
+    0%{
+        padding-left: 0px;
+    }
+    
+    100%{
+        padding-left: 30px;
+    }
+}
+
+
+
+#Contactme ::selection{
+    background-color: rgb(255,119,74);
+}
+
+.col-md-6 a {
+    text-decoration: none;
+}
+
+.form{
+    padding-top: 80px;
+    
+}
+
+.h2{
+    color:white;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.para{
+    color: white;
+    
+}
+.ta{
+    width: 525px;
+    height: 100PX;
+    margin: 10px 10px 10px 0 ;
+    border: none;
+    border-radius: 11px;
+    background-color: rgb(233, 213, 213);
+    padding: 18px 30px;
+    margin-top: 10px;
+    color: rgb(48, 45, 45);
+    font-size: 18px;
+}
+.ta::placeholder{
+    color: rgb(70, 66, 66);
+    font-family: 'Raleway', sans-serif; 
+    font-size: 17px;
+    font-weight: 600;
+}
+.ta:focus{
+    outline: none;
+}
+
+.lien:hover{
+    color: #EF6B33;
+} 
+.inp{
+    background-color: rgb(233, 213, 213);
+    width: 250px;
+    height: 50px;
+    padding: 18px 30px;
+    border-radius: 11px;
+    margin: 15px 15px 10px 0 ;
+    border: none;
+    color: rgb(48, 45, 45);
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.inp::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.inp:focus{
+    outline: none;
+}
+.inp::placeholder{
+    color: rgb(70, 66, 66);
+    font-family: 'Raleway', sans-serif; 
+}
+.submit{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: rgb(255,119,74);
+    background: radial-gradient(circle, rgba(255,119,74,1) 0%, rgba(253,29,29,1) 100%);
+    color: white;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 600;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    position: relative;
+    z-index: 1;
+    margin: 30px 15PX ;
+    box-shadow: rgba(50, 50, 93, 0.5) 0px 30px 60px -12px, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px;
+}
+.submit:hover{
+    color: rgb(255,119,74);
+}
+.submit::before{
+    transition: all .3s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50% ;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: white;
+}
+.submit:hover::before{
+    transition: all .3s ease-in-out;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    
+}
+.insta:hover, .linked:hover, .github:hover{
+    transform: rotate(360deg);
+}

@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+}
+
+h2{
+    margin: -50px 0 0 0;
+}
+
+.rotationLeft:hover{
+    transform: rotate(-1.8deg) scale(90%);
+    transition: .3s ease-in-out ;
+}
+
+.rotationRight:hover{
+    transform: rotate(1.8deg) scale(90%);
+    transition: .3s ease-in-out ;
+}
+
+.links{
+    text-decoration: none;
+    
+}
+
+.links:hover{
+    color: rgb(233, 224, 224);
+}
+
+.links::after{
+    content: '➡';
+    display: none;
+}
+
+.links:hover::after{
+    display: inline;
+    animation-duration: 0.8s;
+    animation-name: gliss;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gliss {
+    from {
+        margin-left: 0%;
+        width: 20%;
+    }
+    
+    to {
+        margin-left: 4%;
+        width: 20%;
+    }
+}
