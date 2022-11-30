@@ -91,7 +91,7 @@
     margin: 10px 10px 10px 0 ;
     border: none;
     border-radius: 11px;
-    background-color: rgb(233, 213, 213);
+    background-color: rgb(202, 202, 202);
     padding: 18px 30px;
     margin-top: 10px;
     color: rgb(48, 45, 45);
@@ -111,7 +111,7 @@
     color: #EF6B33;
 } 
 .inp{
-    background-color: rgb(233, 213, 213);
+    background-color: rgb(202, 202, 202);
     width: 250px;
     height: 50px;
     padding: 18px 30px;
@@ -139,8 +139,8 @@
     height: 50px;
     border-radius: 50px;
     border: 1px solid white;
-    background: rgb(255,119,74);
-    background: radial-gradient(circle, rgba(255,119,74,1) 0%, rgba(253,29,29,1) 100%);
+    background: rgb(255,214,0);
+    background: radial-gradient(circle, rgba(255,214,0,1) 0%, rgba(253,183,53,1) 100%);
     color: white;
     font-family: 'Raleway', sans-serif; 
     font-weight: 600;
@@ -151,9 +151,7 @@
     margin: 30px 15PX ;
     box-shadow: rgba(50, 50, 93, 0.5) 0px 30px 60px -12px, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px;
 }
-.submit:hover{
-    color: rgb(255,119,74);
-}
+
 .submit::before{
     transition: all .3s ease-in-out;
     position: absolute;
@@ -171,8 +169,15 @@
     right: 0;
     opacity: 1;
     z-index: -1;
+    color: white;
+    background-color: black;
     
+
 }
 .insta:hover, .linked:hover, .github:hover{
     transform: rotate(360deg);
+}
+
+.paper{
+    margin: 0 5px 5px 0;
 }

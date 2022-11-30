@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import "./Header.css";
 import { Link } from 'react-router-dom'
+import { FaCircle } from 'react-icons/fa';
 
 export default class Header extends Component {
 
@@ -11,7 +12,7 @@ export default class Header extends Component {
         return (
         <>
         <header className="d-flex justify-content-around">
-            <span className="logo"><Link to="/" >Mehdi 😎 </Link></span>
+            <span className="logo"><Link to="/" >Mehdi  <FaCircle className='dot'/> </Link></span>
 
                 <nav>
                     <ul>

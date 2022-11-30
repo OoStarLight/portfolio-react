@@ -48,6 +48,7 @@ ul li a{
     color: black;
 }
 
-.cir{
+.dot{
     font-size: 10px;
+    color: rgb(255,214,0);
 }

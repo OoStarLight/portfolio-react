@@ -2,6 +2,8 @@ body{
     height: 100vh;
 }
 
+
+
 .hi{
     margin: 40PX 0PX 0 0PX;
     font-size: 50px;
@@ -33,7 +35,7 @@ body{
     font-size: 25px;
 }
 .git:hover{
-    color: rgb(135, 40, 167);
+    color: white;
     
 }
 .git:before{
@@ -45,7 +47,7 @@ body{
     bottom: 0;
     opacity: 0;
     content: "";
-    background-color: white;
+    
     
 }
 .git:hover::before{
@@ -54,15 +56,16 @@ body{
     right: 0;
     opacity: 1;
     z-index: -1;
-    color: black;
+    
+    background-color: black;
 }
 .git{
     width: 150px;
     height: 50px;
     border-radius: 50px;
     border: 1px solid white;
-    background: rgb(169,50,208);
-    background: radial-gradient(circle, rgba(135,40,167) 0%, rgba(161,0,141,1) 100%);
+    background: rgb(255,214,0);
+    background: radial-gradient(circle, rgba(255,214,0,1) 0%, rgba(253,183,53,1) 100%);
     color: white;
     font-family: 'Raleway', sans-serif; 
     font-weight: 600;
@@ -74,7 +77,9 @@ body{
     box-shadow: rgba(50, 50, 93, 0.5) 0px 30px 60px -12px, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px;
 }
 
-
+.marked{
+    color: #8F2D56;
+}
 .container-fluid{
     padding: 100px;
 }
@@ -85,8 +90,9 @@ body{
     color: white;
     animation: typing 2s steps(60, end) forwards, blink-cart 1s step-end forwards;
 }
-.cn{
-    margin-top: 100px;
+h2{
+    margin: 50px 0;
+    font-weight: bold;
 }
 .hii{
     width: 0%;

@@ -9,7 +9,7 @@ export default class Portfolio extends Component {
     render() {
         return (
         <>
-            <h2 className="text-center "> Portfolio</h2>
+            <h2 className="text-center "> PORTFOLIO</h2>
             <div className="container py-5">
                 <div className="row">
                     <div className="col-md-6 pb-5">

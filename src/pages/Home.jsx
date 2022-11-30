@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css'
 import tof1 from '../images/tof1.gif'
-
+import {FaPeriscope} from 'react-icons/fa';
+import { Link } from 'react-router-dom'
 
     export default class Home extends Component {
 
@@ -24,11 +25,11 @@ import tof1 from '../images/tof1.gif'
                                     <h1 >Welcome to the party !</h1>
                                 </div>
                                 <div className="para">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis, eius
+                                    <p className='paragraphe'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis, eius
                                         voluptatibus debitis commodi ut ducimus tempora ad quisquam quidem.</p>
                                 </div>
-                                <a href="#About"><button className="exp"><i className="fa-solid fa-arrow-down"></i>
-                                    🔎 Explore</button></a>
+                                <Link to="/About"><button className="exp">
+                                <FaPeriscope className='periscope paper'/> Explore</button></Link>
                             </div>
                             <div className="col-md-6">
                                 <img src={tof1} className="w-75" alt=""/>
