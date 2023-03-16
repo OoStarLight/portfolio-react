@@ -25,8 +25,7 @@ import { Link } from 'react-router-dom'
                                     <h1 >Welcome to the party !</h1>
                                 </div>
                                 <div className="para">
-                                    <p className='paragraphe'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis, eius
-                                        voluptatibus debitis commodi ut ducimus tempora ad quisquam quidem.</p>
+                                    
                                 </div>
                                 <Link to="/About"><button className="exp">
                                 <FaPeriscope className='periscope paper'/> Explore</button></Link>
